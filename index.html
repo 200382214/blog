@@ -5,9 +5,7 @@
 
 </style>
 <meta carset="UTF-8"/>
-  
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>RESUME </title>
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -193,20 +191,44 @@ function myFunction() {
 
 
 </script>
-<div class="form">
+<div class="containerform">
   <form action="/action_page.php">
-    <label for="fname">NAME</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name">
-
-    <label for="lname">E-MAIL</label>
-    <input type="text" id="lname" name="lastname" placeholder="E-mail">
-
-    <label for="country">PHONE</label>
-   
-<input type="text" id="lname" name="lastname" placeholder="Phone">  
-<label for="message">MESSAGE</label>
-<input type="text" id="lname" name="lastname" placeholder="Message">
-    <input type="submit" value="Submit">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname" class="myForm">Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="name" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname" class="myForm">E-mail</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="E-mail" placeholder="Your e-mail Id..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country" class="myForm">Phone</label>
+        
+      </div>
+      <div class="col-75">
+        <input type="text" id="country" name="Phone" placeholder="Your phone number..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject" class="myForm">Message</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
   </form>
 </div>
 <div class="con">
@@ -219,7 +241,8 @@ function myFunction() {
 </h1>
 </div>
 
-<script src="style.js"></script>
+<script src="style.js">
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
 <div id="icons">
@@ -236,15 +259,14 @@ function myFunction() {
 <h1 class="h1">Lets Check if you are not a robot.</h1>
 <section class="section">
   <h2>Pick the numbers that add up to 72:</h2>
-  <input id="a" type="checkbox" class="input"><label for="a">64</label>
-  <input id="b" type="checkbox" class="input"><label for="b">16</label>
-  <input id="c" type="checkbox" class="input"><label for="c">-32</label>
-  <input id="d" type="checkbox" class="input"><label for="d">128</label>
-  <input id="e" type="checkbox" class="input"><label for="e">4</label>
-  <input id="f" type="checkbox" class="input"><label for="f">-8</label>
+  <input id="a" type="checkbox" class="input"><label for="a" class="label">64</label>
+  <input id="b" type="checkbox" class="input"><label for="b" class="label">16</label>
+  <input id="c" type="checkbox" class="input"><label for="c" class="label">-32</label>
+  <input id="d" type="checkbox" class="input"><label for="d" class="label">128</label>
+  <input id="e" type="checkbox" class="input"><label for="e" class="label">4</label>
+  <input id="f" type="checkbox" class="input"><label for="f" class="label">-8</label>
   <span class="sum"></span>
 </section>
-
 
 
 </header>
