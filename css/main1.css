@@ -1,0 +1,361 @@
+
+
+body {margin:0%}
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: black;
+  width: 0%;
+}
+.fix{
+ position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: black;
+}
+.follow{
+	padding-left: 20cm;
+}
+#myTopnav{
+  position: fixed;
+  width: 100%;
+  
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+ 
+ 
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  border-bottom: 5px solid red;
+}
+
+.active {
+  background-color: ;
+  color: white;
+   
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    
+  }
+
+}
+
+
+
+
+
+
+html{
+	color:white;
+	background-color: black;
+}
+
+#header{
+    height:550px;
+    line-height:1%;
+	text-align: center;
+  overflow: hidden;
+	
+
+ 
+}   
+    #header h1{
+        font:58px Allan, Serif;color:#f2f0eb;margin-top:5cm;
+        text-shadow:0px 2px px;width: 100%;
+    }
+    #header h2{
+        width:100%;font:40px Times New Roman, Serif;color:#f2f0eb; letter-spacing: 2px;
+        text-shadow:0px 2px 1px #494949;text-align: center;
+    }
+ .parallax {
+    /* The image used */
+    background-image:url(Pictures/back.jpeg);;
+
+    /* Set a specific height */
+    min-height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   width: 100%;
+}
+.ic{
+  color: white;
+}
+
+
+
+img.f-s{
+	
+    filter: grayscale(1);
+ 
+	
+}img.f-s:hover{
+    filter: grayscale(0);
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+   .main,.main1{
+    width:50%;
+  }
+}
+.main {
+  float:left;
+  width:80%;
+  padding:10px 30px;
+  font-size: 24px;
+ 
+  
+  
+}
+.parallax4,.parallax5,.parallax3{
+     
+
+    /* Set a specific height */
+    min-height: 200px; 
+    padding : 0 20px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+    }
+      #header4{
+        
+    height:250px;
+    
+  background-image:url(Pictures/header4.jpeg);
+ overflow: hidden
+  color: white;
+        width: 87%;
+          
+ 
+} 
+#skills{
+  font-size: 29px;
+  padding: 0 30px;
+  letter-spacing: 2px;
+}
+
+   #header4 h2{
+        font:58px Allan, Serif;color:#f2f0eb;margin-top:3cm;
+        text-shadow:0px 2px px;width: 100%;text-align:center;
+    }
+
+.w3-wide{
+  letter-spacing:5px;
+    margin-left: 2%;
+    color: white;
+    
+
+}
+.w3-white,.w3-hover-white:hover{color:red;background-color:black;padding:0.8%;margin: 2% 2%!important
+}
+.w3-dark-grey,.w3-hover-dark-grey:hover,.w3-dark-gray,.w3-hover-dark-gray:hover
+{color:blue!important;background-color:skyblue;padding-block-end: 1%}
+
+.main5 h3{
+  font-size: 50px;
+}
+
+ #header3{
+        
+    height:250px;
+    
+	background-image:url(Pictures/header.jpeg);
+
+ overflow: hidden
+  color: white;
+        width: 86%;
+          
+ 
+} 
+#Exper{
+  font-size: 24px;
+  padding: 0px 20px;
+  letter-spacing: 2px;
+}
+
+   #header3 h2{
+        font:48px Allan, Serif;color:#f2f0eb;margin-top:2cm;
+        text-shadow:0px 2px px;width: 100%;text-align:center;
+    }
+   #header2{
+        
+    height:250px;
+    
+	background-image:url(Pictures/p3.png);
+
+ overflow: hidden;
+  color: white;
+        width: 86%;
+   
+ 
+}
+#educ{
+  font-size: 24px;
+  padding: 0px 20px;
+  letter-spacing: 2px;
+}
+
+   #header2 h2{
+    input[type=text], select, textarea{
+    width: 100%;
+    padding: 22px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+
+
+
+input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 22px 90px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-size: 20px;
+    margin-top:2cm; 
+}
+
+input[type=submit]:hover {
+    background-color: cyan;
+}
+
+.containerform {
+    border-radius: 2px;
+    background-color: black;
+    padding: 100px;
+    margin-top: 2cm;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.myForm{
+    font-size: 28px;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: black;
+  width: 0%;
+}
+.fix{
+ position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: black;
+}
+.follow{
+	padding-left: 20cm;
+}     font:48px Allan, Serif;color:#f2f0eb;margin-top:2cm;
+        text-shadow:0px 2px px;width: 100%;text-align:center;
+    }
+
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: black;
+  width: 0%;
+}
+.fix{
+ position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: black;
+}
+.follow{
+	padding-left: 20cm;
+}
